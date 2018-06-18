@@ -1,6 +1,6 @@
 #home {
-  background-color: #D23333;
-  color: white;
+  background-color: $red;
+  color: $red;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -15,3 +15,6 @@
     font-size: 16px;
   }
 }
+
+// #D23333
+// white
