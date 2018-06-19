@@ -22,5 +22,5 @@ activate :deploy do |deploy|
 end
 
 ["papillard", "ssaunier", "monsieurpaillard"].each do |name|
-  proxy "/flats/#{name}.html", "/flats/show.html", locals: { owner: name }, ignore: true
+  proxy "/flats/#{name}.html", "/flats/show.html", locals: { owner: x x }, ignore: true
 end
